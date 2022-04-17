@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0e0c1a;
+    color: white;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+i{
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+.container{
+    margin: 20px 10%;
+}
+
+.ins-main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left{
+    width: 65%;
+    word-wrap: break-word;
+}
+
+/*------------------------ header--------------------- */
+
+#header{
+    margin-bottom: 5%;
+}
+
+#header-a{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* --------------------contacts------------------- */
+
+#contacts{
+    display: inline-block;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding-bottom: 2%;
+}
+
+.contact-a{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.disc-ic{
+    background-color: #fff;
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.fa-twitter{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.opensea-ic{
+    background-color: #fff;background-color: #fff;
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+/*----------------------------- mint date -----------------------------*/
+.min-date-p{
+    font-family: sans-serif;
+}
+.mint-date-span{
+    font-weight: bold;
+}
+
+/* ------------------------connect-wallet------------------- */
+
+#connect-wallet h1{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#connect-wallet button{
+    width: auto!important;
+    padding: 16px 28px ;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 60px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #000000!important;
+    background-color: #ffffff!important;
+}
+
+#connect-wallet p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    float: left;
+    margin-top: 5%;
+}
+
+/* ------------------------right--------------- */
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right-nft-gif{
+    width: 420px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+/* -----------------------all-nft ---------------------------*/
+
+.all-nft{
+    display: flex;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.ins-all-nft{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nft-item{
+    display: inline-block;
+
+    
+}
+
+.nft-item-img{
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.nft-item p{
+    position: absolute;
+    margin-top: -2.5%;
+    background-color: #17162b;
+    width: 170px;
+    padding: 10px 30px 10px 20px;
+    border-radius: 20px;
+}
+
+/*-------------------------------- load-more ---------------------*/
+
+.load-more-div{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#load-more{
+    background-color: #fff;
+    color: white;
+    width: 292px;
+    height: 60px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+
+
+/*------------------------------------- footer----------------------- */
+
+#footer{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#footer a{
+    color: #485fc7;
+}
